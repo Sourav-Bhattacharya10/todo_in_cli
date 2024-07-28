@@ -9,6 +9,3 @@ easy-sgr-macros = "0.1.0"
 serde = { version = "1.0.104", features = ["derive"] }
 serde_json = "1.0.118"
 toml = "0.8.14"
-
-[env]
-json_file_path = "TodoList.json"
