@@ -6,10 +6,10 @@
     "configurations": [
         {
             "name": "(gdb Ubuntu) Launch Custom by Deviac",
-            "type": "cppdbg",
+            "type": "lldb",
             "request": "launch",
             "program": "${workspaceFolder}/target/debug/todo_in_cli",
-            "args": [],
+            "args": ["list"],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "preLaunchTask": "rust: cargo build",
